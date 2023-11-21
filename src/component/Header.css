@@ -1,0 +1,58 @@
+.headContainer {
+    padding: 10px 0px 10px 0px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+.buttonContainer {
+    display: flex;
+    border-radius: 7px;
+    background: white;
+    position: relative;
+    padding: 3px 10px;
+}
+
+.buttonContainer button {
+    color: black;
+    gap: 7px;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border-color: transparent;
+    box-shadow: 0 0 2px rgba(68, 68, 68, 0.1);
+    border-radius: 7px;
+    background: white;
+    border: 2px solid rgb(232, 232, 232);
+    
+}
+
+.dropMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 2px rgba(68, 68, 68, 0.1);
+    border-radius: 7px;
+    border: 2px solid rgb(232, 232, 232);
+    background-color: white;
+}
+
+.selectGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectStyle {
+    width: 100px;
+    border: 2px solid rgb(232, 232, 232);
+    padding: 2px 5px;
+    box-shadow: 0 0 2px rgba(68, 68, 68, 0.1);
+    border-radius: 7px;
+    background: white;
+
+}
